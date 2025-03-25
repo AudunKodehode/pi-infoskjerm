@@ -28,6 +28,13 @@ EOF
 chmod +x ~/.xsessionrc
 
 
+# Disable screen blanking (prevents screensaver and power saving mode)
+xset s off
+xset -dpms
+xset s noblank
+
+
+
 # Reboot the system to apply changes
 echo "Rebooting to apply changes..."
 sudo reboot
