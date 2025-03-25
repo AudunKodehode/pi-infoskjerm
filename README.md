@@ -20,5 +20,5 @@ To quickly set up the Raspberry Pi in kiosk mode, you can run a simple **one-lin
 ### Step 1: Run the One-Liner
 Open a terminal on your Raspberry Pi and run the following command:
 
-```bash
-curl -sSL https://raw.githubusercontent.com/AudunKodehode/pi-infoskjerm/main/setup_kiosk.sh | bash
+```curl -sSL https://raw.githubusercontent.com/AudunKodehode/pi-infoskjerm/main/setup_kiosk.sh -o setup_kiosk.sh && chmod +x setup_kiosk.sh && bash -x setup_kiosk.sh | tee debug.log
+
